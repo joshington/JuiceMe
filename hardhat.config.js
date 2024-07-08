@@ -10,8 +10,6 @@
 require("@nomicfoundation/hardhat-toolbox");
 require("dotenv").config();
 
-
-
 const config = {
   solidity: "0.8.9",
   networks: {
@@ -22,8 +20,8 @@ const config = {
     },
   },
   etherscan: {
-    apiKey: process.env.ETHERSCAN_API_KEY
-  }
+    apiKey: process.env.ETHERSCAN_API_KEY,
+  },
 };
 
 //export default config;
